@@ -15,8 +15,7 @@ phases:
       - npm test
   post_build:
     commands:
-      - echo Tests Complete
-      
+      - echo Tests Complete     
  artifacts:
   files:
     - src/index.js
