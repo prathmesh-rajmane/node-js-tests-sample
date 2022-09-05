@@ -16,3 +16,9 @@ phases:
   post_build:
     commands:
       - echo Tests Complete
+      
+ artifacts:
+  files:
+    - src/index.js
+    - package.json
+    - node_modules/**/*
